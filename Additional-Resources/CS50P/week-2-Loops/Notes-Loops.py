@@ -36,3 +36,15 @@
 
 #print("hello\n" * 3, end="")
 
+###Part 6: Using 'While Loops'
+
+while True:
+    n = int(input("What's n? "))
+
+    if n > 0:
+        break
+
+for _ in range(n):
+    print("Hello")
+
+###Part 7:
